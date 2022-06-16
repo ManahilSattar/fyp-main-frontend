@@ -1,0 +1,157 @@
+.login-container {
+  margin: 50px auto;
+  width: 1000px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  .login-container{
+    width: 350px;
+    height: 500px;
+    margin: 50px auto;
+    overflow: hidden;
+  }
+}
+
+.login-content-left {
+  border-radius: 10px 0 0 10px;
+  position: relative;
+  margin-right: -100%;
+  margin-left: 100%;
+}
+
+.login-img {
+  width: 60%;
+  height: 70%;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-40%, -40%);
+}
+@media  screen and (max-width:768px) {
+  .login-img{
+    display: none;
+  }  
+}
+
+.login-content-right {
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  margin-top: 90px;
+  margin-left: -100%;
+}
+
+.login h1 {
+  font-size: 2rem;
+  text-align: start;
+  width: 80%;
+  margin-left: 30px;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.login-inputs {
+  margin-bottom: 0.5rem;
+  width: 80%;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .login-inputs{
+      margin-left: 25px;
+      width: 55%;
+   }
+}
+
+.login-input-btn {
+  width: 10%;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 190px;
+  border-radius: 25px;
+  background-color: #fcdc00;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+  .login-input-btn{
+    margin-left: 120px;
+}
+}
+
+.login-input-btn:hover {
+  cursor: pointer;
+  background-color: #ffa000;
+  transition: all 0.4s ease-out;
+}
+.resend-verification-email {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.login-btn {
+  transform: translateX(320px) translateY(-40px);
+  font-size: 1.6rem;
+  padding: 0.15rem;
+  margin-left: 85px;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border-color: transparent;
+  margin-top: 3px;
+  margin-bottom: -100%;
+  font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+  .login-btn{
+    margin-left: -49px;
+    padding: 10px;
+    margin-top: 0.5px;
+  }
+}
+
+.login-input-forgetpassword {
+  font-size: 0.8rem;
+  color: black;
+  width: 80%;
+  margin-left: 380px;
+}
+@media screen and (max-width:768px) {
+  .login-input-forgetpassword{
+    margin-left: 230px;
+  }
+}
+.login-input-resendVerificationEmail {
+  font-size: 0.8rem;
+  color: black;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 15%;
+  font-weight: 600;
+}
+@media screen and (max-width:768px) {
+  .login-input-resendVerificationEmail{
+    margin-left: 6%;
+  }
+}
+.login-input-resendVerificationEmail a {
+  text-decoration: none;
+  color: #ffa000;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.login-input-forgetpassword a {
+  text-decoration: none;
+  color: #ffa000;
+  font-weight: 600;
+}
