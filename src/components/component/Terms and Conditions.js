@@ -1,5 +1,4 @@
 import React from 'react'
-
 export const TermsCondition = () => {
   return (
     <div>
@@ -63,16 +62,17 @@ Period before departure within which written notification of cancellation is rec
     marginTop : '20px',
     marginLeft: '75%',
     borderRadius:  '2px',
-    backgroundColor : '#fcdc00',
+    backgroundColor : '#339BFF',
     outline : 'none',
     border : 'none',
     color : '#fff',
     cursor : 'pointer',
     fontSize : '1.25rem',
+    marginBottom: '50px',
     fontWeight : 'bold'}}>
       <a style={{textDecoration : 'none', color: '#fff'
     }} href='/signup' >
-      Go back to Signup page
+      Back to SignUp
       </a></button>
       <br></br>
     </div>

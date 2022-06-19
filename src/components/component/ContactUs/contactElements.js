@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-    color: #ffa000;
+    color: #339BFF;
     font-size: 16px;
     line-height: 16px;
     /*line-width:100px;*/
@@ -69,7 +69,7 @@ export const Heading = styled.div`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ ligthText }) => (ligthText ? "#f7f8fa" : "#010606")};
+  color: ${({ ligthText }) => (ligthText ? "#555555" : "#555555")};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -86,11 +86,11 @@ export const Img = styled.img`
   padding-right: 0;
 `;
 export const Button = styled.button`
-  background-color: #fcdc00;
+  background-color: #339BFF;
   width: 30%;
   height: 50px;
   margin-top: 10px;
-  border-radius: 2px;
+  border-radius: 25px;
   outline: none;
   border: none;
   color: #fff;
@@ -98,6 +98,6 @@ export const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
   &:hover {
-    background-color: #ffa000;
+    background-color: #333BFF;
   }
 `;

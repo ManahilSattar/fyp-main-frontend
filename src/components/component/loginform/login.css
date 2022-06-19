@@ -50,9 +50,9 @@
   font-size: 2rem;
   text-align: start;
   width: 80%;
-  margin-left: 30px;
+  margin-left: 55px;
   margin-bottom: 1rem;
-  color: black;
+  color: #555555;
 }
 
 .login-inputs {
@@ -74,7 +74,7 @@
   margin-top: 15px;
   margin-left: 190px;
   border-radius: 25px;
-  background-color: #fcdc00;
+  background-color: #339BFF;
   outline: none;
   border: none;
   color: #fff;
@@ -90,7 +90,7 @@
 
 .login-input-btn:hover {
   cursor: pointer;
-  background-color: #ffa000;
+  background-color: #333BFF;
   transition: all 0.4s ease-out;
 }
 .resend-verification-email {
@@ -121,8 +121,8 @@
 }
 
 .login-input-forgetpassword {
-  font-size: 0.8rem;
-  color: black;
+  font-size: 14px;
+  color: #555555;
   width: 80%;
   margin-left: 380px;
 }
@@ -132,12 +132,13 @@
   }
 }
 .login-input-resendVerificationEmail {
-  font-size: 0.8rem;
-  color: black;
+  font-size: 14px;
+  color: #555555;
   display: flex;
   margin-top: 20px;
   margin-left: 15%;
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 14px;
 }
 @media screen and (max-width:768px) {
   .login-input-resendVerificationEmail{
@@ -146,12 +147,19 @@
 }
 .login-input-resendVerificationEmail a {
   text-decoration: none;
-  color: #ffa000;
+  color: #339BFF;
   margin-left: 10px;
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 14px;
 }
 .login-input-forgetpassword a {
   text-decoration: none;
-  color: #ffa000;
+  color: #339BFF;
   font-weight: 600;
+}
+.login-input-forgetpassword a:hover{
+  color: #333BFF;
+}
+.login-input-resendVerificationEmail a:hover{
+  color: #333BFF;
 }

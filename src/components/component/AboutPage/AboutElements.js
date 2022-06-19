@@ -50,7 +50,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-    color: #ffa000;
+    color: #339BFF;
     font-size: 16px;
     line-height: 16px;
     /*line-width:100px;*/
@@ -78,7 +78,7 @@ export const Subtitle = styled.div`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ darkText }) => (darkText ? "black" : "black")};
+color: ${({ darkText }) => (darkText ? "#555555" : "#555555")};
 `;
 export const ImgWrap = styled.div`
   max-width: 555px;

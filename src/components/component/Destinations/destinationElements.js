@@ -6,7 +6,7 @@ export const DestinationContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:#ffba46;
+    background:#33B9FF;
 
     @media screen and (max-width: 768px){
         height:1100px;
@@ -73,7 +73,7 @@ export const DestinationH1 = styled.h1`
 
 export const DestinationH2 = styled.h2`
     font-size: 1.5rem;
-    color: #ffa000;
+    color: #333BFF;
     margin-bottom: 10px;
 `
 export const DestinationH3 = styled.h3`
@@ -81,11 +81,12 @@ export const DestinationH3 = styled.h3`
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
-    
+    color: #555555;
 `
 export const DestinationP = styled.p`
     font-size: 1rem;
     margin-top: -20px;
     margin-bottom: 40px;
     text-align:center;
+    color: #555555;
 `

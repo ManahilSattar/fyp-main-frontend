@@ -37,7 +37,7 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: ${({lightText}) => (lightText ? '#ff7d00' : '#f7ff00')};
+    color: ${({lightText}) => (lightText ? '#339BFF' : '#339BFF')};
 `;
 
 export const HeroH1 = styled.h1`

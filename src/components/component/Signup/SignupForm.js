@@ -249,7 +249,7 @@ const Signup = () => {
             <a
               style={{
                 textDecoration: "none",
-                color: "#ffa000",
+                color: "#339BFF",
                 fontWeight: 600,
               }}
               href="/termsandconditions"

@@ -7,7 +7,7 @@ export const DealsContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background:#ffba46;
+    background:#33B9FF;
     @media screen and (max-width: 768px){
         height:1400px;
     }
@@ -66,7 +66,7 @@ export const DealsH1 = styled.h1`
 
 export const DealsH2 = styled.h2`
     font-size: 1.5rem;
-    color: #ffa000;
+    color: #333BFF;
     margin-bottom: 40px;
 `
 export const DealsH3 = styled.h3`
@@ -74,17 +74,18 @@ export const DealsH3 = styled.h3`
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
-    
+    color:#555555;
 `
 export const DealsP = styled.p`
     font-size: 1rem;
     text-align: center;
     margin-top: -20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
+    color:#555555;
 `
 
 export const Button = styled.button`
-    background-color: #fcdc00;
+    background-color: #339BFF;
     width: 100px;
     align-items:"center";
     color: white;
@@ -96,7 +97,7 @@ export const Button = styled.button`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     &:hover{
-        background-color:#ffa000;
+        background-color:#333BFF;
     }
 ` 
 export const DealBtnLink = styled(LinkR)`
