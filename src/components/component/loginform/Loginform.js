@@ -3,7 +3,7 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import useForm from "./useform";
 import "./login.css";
 import validator from "validator";
-import img1 from "../../images/off the beaten track.png";
+import img1 from "../../images/logo.jpeg";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import Snackbar from "../snakebar";
 import { POST } from "../../../services/httpClient.js";

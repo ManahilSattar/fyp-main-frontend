@@ -9,7 +9,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
-import img1 from "../../images/off the beaten track.png";
+import img1 from "../../images/logo.jpeg";
 const Signup = () => {
   const initialValues = {
     firstname: "",

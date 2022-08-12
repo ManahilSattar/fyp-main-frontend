@@ -4,7 +4,7 @@ import useForm from "./useForm";
 import { Navigate } from "react-router-dom";
 import { TextField } from "@mui/material";
 import "../loginform/login.css";
-import img1 from "../../images/off the beaten track.png";
+import img1 from "../../images/logo.jpeg";
 import Snackbar from "../snakebar";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import { POST } from "../../../services/httpClient.js";

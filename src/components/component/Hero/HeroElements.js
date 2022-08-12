@@ -37,7 +37,7 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: ${({lightText}) => (lightText ? '#339BFF' : '#339BFF')};
+  color: ${({ lightText }) => (lightText ? "#ff7d00" : "#f7ff00")};
 `;
 
 export const HeroH1 = styled.h1`
@@ -60,7 +60,7 @@ export const HeroP = styled.p`
     font-weight: bold;
     text-align: center;
     justify-content: center;
-    max-width: 600px;
+    max-width: 900px;
 
     @media screen and (max-width: 768px){
         font-size: 24px;

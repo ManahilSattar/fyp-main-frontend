@@ -38,7 +38,7 @@ const EmailMessage = () => {
                 marginTop: "20px",
                 marginLeft: "43%",
                 borderRadius: "2px",
-                backgroundColor: "#ffa000",
+                backgroundColor: "#33B9FF",
                 outline: "none",
                 border: "none",
                 color: "#fff",

@@ -11,7 +11,7 @@ import {
   NavBtnLink,
   NavBtn,
 } from "./NavbarElement";
-import img1 from "../../images/off the beaten track.png";
+import img1 from "../../images/logo.jpeg";
 // import Search from "../searchbar/search";
 const styles = {
   NavbarAvater: {

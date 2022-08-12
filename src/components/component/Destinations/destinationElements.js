@@ -73,7 +73,7 @@ export const DestinationH1 = styled.h1`
 
 export const DestinationH2 = styled.h2`
     font-size: 1.5rem;
-    color: #333BFF;
+    color: #0874ec;
     margin-bottom: 10px;
 `
 export const DestinationH3 = styled.h3`

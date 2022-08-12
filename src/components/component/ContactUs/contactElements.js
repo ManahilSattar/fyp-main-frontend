@@ -53,7 +53,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-    color: #339BFF;
+    color: #0874ec;
     font-size: 16px;
     line-height: 16px;
     /*line-width:100px;*/
@@ -86,7 +86,7 @@ export const Img = styled.img`
   padding-right: 0;
 `;
 export const Button = styled.button`
-  background-color: #339BFF;
+  background-color: #33B9FF;
   width: 30%;
   height: 50px;
   margin-top: 10px;
@@ -98,6 +98,6 @@ export const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
   &:hover {
-    background-color: #333BFF;
+    background-color: #0874ec;
   }
 `;

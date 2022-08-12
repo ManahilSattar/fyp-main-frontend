@@ -29,7 +29,7 @@ const Deals = ({id}) => {
         <>
         <DealsContainer id = {id}>
             <DealsH1>Hot Deals</DealsH1>
-            <DealsH2>OFF THE BEATEN TRACK</DealsH2>
+            <DealsH2>DREAM DESTINATION GATEWAYS</DealsH2>
             <DealsWrapper data-aos = 'fade-up'>
                 <DealsCard>
                     <DealsIcon src = {img1} alt = ""></DealsIcon>

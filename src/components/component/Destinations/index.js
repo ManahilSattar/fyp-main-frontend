@@ -28,7 +28,7 @@ const Destination = ({id}) => {
         <>
              <DestinationContainer id ={id}>
             <DestinationH1>Destination</DestinationH1>
-            <DestinationH2>OFF THE BEATEN TRACK</DestinationH2>
+            <DestinationH2>DREAM DESTINATION GATEWAYS</DestinationH2>
             <DestinationWrapper data-aos = "fade-up">
                 <DestinationCard>
                     <DestinationIcon src = {img1} alt = "travel img"></DestinationIcon>

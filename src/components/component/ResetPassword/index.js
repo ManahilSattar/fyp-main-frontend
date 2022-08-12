@@ -5,7 +5,7 @@ import "../loginform/login.css";
 import { TextField } from "@mui/material";
 import { Box } from "@mui/system";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
-import img1 from "../../images/off the beaten track.png";
+import img1 from "../../images/logo.jpeg";
 import { POST } from "../../../services/httpClient.js";
 import { useSearchParams, Navigate } from "react-router-dom";
 import CircularProgress from "@material-ui/core/CircularProgress";

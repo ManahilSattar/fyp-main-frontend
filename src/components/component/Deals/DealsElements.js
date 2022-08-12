@@ -66,7 +66,7 @@ export const DealsH1 = styled.h1`
 
 export const DealsH2 = styled.h2`
     font-size: 1.5rem;
-    color: #333BFF;
+    color: #0874ec;
     margin-bottom: 40px;
 `
 export const DealsH3 = styled.h3`
@@ -85,7 +85,7 @@ export const DealsP = styled.p`
 `
 
 export const Button = styled.button`
-    background-color: #339BFF;
+    background-color: #33B9FF;
     width: 100px;
     align-items:"center";
     color: white;
@@ -97,7 +97,7 @@ export const Button = styled.button`
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     &:hover{
-        background-color:#333BFF;
+        background-color:#0874ec;
     }
 ` 
 export const DealBtnLink = styled(LinkR)`

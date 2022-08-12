@@ -105,7 +105,8 @@
 }
 @media  screen and (max-width:768px) {
   .form-btn{
-    margin-left: 60px;
+    margin-left: 50px;
+    font-size: 1.25rem;
   }
 }
 .form-btn:disabled{
@@ -113,12 +114,12 @@
   opacity: 0.5;
 }
 .form-btn:enabled{
-  background-color: #339BFF;
+  background-color: #33B9FF;
 }
 
 .form-btn:hover {
   cursor: pointer;
-  background-color: #333BFF ;
+  background-color: #0874ec ;
   transition: all 0.4s ease-out;
 }
 
@@ -138,11 +139,11 @@
 
 .form-input-login a {
   text-decoration: none;
-  color: #339BFF;
+  color: #33B9FF;
   font-weight: bold;
 }
 .form-input-login a:hover{
-  color: #333BFF;
+  color: #0874ec;
 }
 
   .btn-2{

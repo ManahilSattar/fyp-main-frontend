@@ -3,7 +3,7 @@ import { Box, TextField } from "@mui/material";
 import { useState } from "react";
 import { POST } from "../../../services/httpClient.js";
 import { Navigate } from "react-router-dom";
-import img1 from "../../images/off the beaten track.png";
+import img1 from "../../images/logo.jpeg";
 import Snackbar from "../snakebar";
 import "./style.css";
 const ResendVerificationEmail = () => {

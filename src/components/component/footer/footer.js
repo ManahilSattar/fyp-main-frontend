@@ -26,7 +26,7 @@ const Footer = ({ id }) => {
         <Socialmedia>
           <SocialmediaWrap>
             <Sociallogo to="/" onClick={toggleHome}>
-              OFF THE BEATEN TRACK
+              DREAM DESTINATION GATEWAYS
             </Sociallogo>
             <SocialIcons>
               <SocialIconLink href="/" target="blank" aria-label="Facebook">

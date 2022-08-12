@@ -62,7 +62,7 @@ Period before departure within which written notification of cancellation is rec
     marginTop : '20px',
     marginLeft: '75%',
     borderRadius:  '2px',
-    backgroundColor : '#339BFF',
+    backgroundColor : '#33B9FF',
     outline : 'none',
     border : 'none',
     color : '#fff',

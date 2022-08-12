@@ -63,12 +63,12 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
   &:hover {
-    background-color: #333BFF;
+    background-color: #0874ec;
     border-radius: 50px;
     transition: 0.2s ease-in-out;
   }
   &.active {
-    border-bottom: 3px solid #333BFF;
+    border-bottom: 3px solid #0874ec;
   }
 `;
 
@@ -80,12 +80,12 @@ export const NavLink = styled(LinkS)`
    height: 100%;
    cursor: pointer;
    &:hover {
-      background-color: #333BFF;
+      background-color: #0874ec;
       border-radius: 50px;
       transition: 0.2s ease-in-out;
   }
   &.active{
-   border-bottom: 3px solid #333BFF;
+   border-bottom: 3px solid #0874ec;
 }
 `;
 
@@ -99,7 +99,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
    border-radius: 40px;
-   background:#339BFF;
+   background: #33B9FF;
    white-space: nowrap;
    padding: 10px 22px;
    color: #010606;
@@ -113,7 +113,7 @@ export const NavBtnLink = styled(LinkR)`
    text-decoration: none;
    &:hover{
       transition: all 0.2s ease-in-out;
-      background: #333BFF;
+      background: #0874ec;
       color: #010606;
    }
 `;

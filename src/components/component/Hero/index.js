@@ -25,7 +25,7 @@ const HeroElements = ({id}) => {
             </HeroBg>
             <HeroContent data-aos = 'zoom-in'>
                 <HeroH1>Explore with</HeroH1>
-                <HeroP>OFF THE BEATEN TRACK</HeroP>
+                <HeroP>DREAM DESTINATION GATEWAYS</HeroP>
             </HeroContent>
             
         </HeroContainer>
